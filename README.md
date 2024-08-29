@@ -2,7 +2,7 @@
 Codigo de Sentencias Condicionales en Python
 
 def calc_bmi(height, weight):
-    bmi = weight / ((height / 100.0) ** 2)  # Convertir altura de cm a metros
+    bmi = weight / ((height / 100.0) ** 2)  
     return bmi
 
 height = float(input("Enter your height in cm: "))
